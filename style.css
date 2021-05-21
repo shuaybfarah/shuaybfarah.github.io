@@ -6,6 +6,20 @@
     padding: 0;
 }
 
+
+body {
+    background-image: url("images/yasmine-arfaoui-R6rh5ttDO-4-unsplash.jpg"), url("paper.gif");
+    background-color: #cccccc;
+  }
+
+  .container {
+    background-color: rgb(245, 245, 245);
+    max-width: 60rem;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.75) 1px 3px 5px 0px;
+    margin: 2rem auto;
+}
+
 html{
     font-size: 16px;
     margin-top: 3em;
@@ -15,11 +29,13 @@ h1,h2,h3{
     color: #666;
 }
 
+
 header,
 main,
 footer {
     margin: 0 auto;
     max-width: 800px;
+    
 }
 
 header{
@@ -72,7 +88,7 @@ section ul {
     padding-left: 1.5em;
 }
 
-#products{
+#projects{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 1em;
@@ -80,17 +96,17 @@ section ul {
 }
 
 
-#products article {
+#projects article {
     background: #ccc;
     padding: 1em;
 }
 
-#products article img{
+#projects article img{
    width: 100%;
    border: 1px solid green;
 }
 
-#aboutUs img{
+#aboutMe img{
         width: 40%;
         border: 1px solid green;
         display: grid;
